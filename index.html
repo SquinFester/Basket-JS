@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fc3d203c5.js" crossorigin="anonymous"></script>
+
+    <title>Bossman | Projekt</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-top">
+            <div class="header-top-content container">
+                <p class="header-top-name">Bartosz Przymencki</p>
+                <button class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
+                <h1 class="header-top-logo">BOSSMANN</h1>
+                <span class="header-top-basket" data-count="0">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    Koszyk
+                </span>
+            </div>
+        </div>
+
+        <nav class="header-top">
+            <div class="header-top-content container">
+                <div class="header-top-categories">
+
+                </div>
+                <div class="header-top-search">
+                    <input type="text" placeholder="Szukaj produktów" name="search" class="header-search-input">
+                    <label for="search">
+                        <span class="header-search-input-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="products-section container">
+    </main>
+
+    <div class="empty-search">
+        <p>Nie znaleziono produktu</p>
+    </div>
+
+    <div class="basket container">
+        <div class="basket-content">
+            <button class="close-basket">x</button>
+            <h1 class="basket-content-title">Koszyk</h1>
+            <div class="basket-content-reged">
+                <div class="basket-content-reged-left">
+                                  
+                </div>
+
+                <div class="basket-content-reged-right">
+                    <h1 class="prodcut-name">Podsumowanie:</h1>
+                    <p class="basket-price"></p>
+                    <button class="basket-content-button-pay b-btn">Zapłać</button>
+                    <button class="basket-content-button-cancel b-btn">Usuń</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        author: Bartosz Przymencki
+    </footer>
+    <script src="productsList.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
